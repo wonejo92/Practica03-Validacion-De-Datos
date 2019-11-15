@@ -1,0 +1,43 @@
+.error {
+	border: 1px solid red;
+}
+
+.p {
+	display: block !important;
+	color: red;
+}
+
+body {
+	background-size: 100%;
+	background-image: url(../Images/htmlFondo.jpg);
+}
+
+#form {
+	background-image: url(../imgs/fondo_calc.jpg);
+	border-radius: 10px;
+	width: 350px;
+	padding: 10px 25px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 70px;
+	color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+td {
+	padding-top: 10px;
+	padding-right: 15px;
+}
+
+#crear, #cancelar {
+	width: 100px;
+	margin: 10px;
+
+}
+
+#btn {
+	text-align: center;
+}

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Validaciones</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script type="text/javascript" src="js/validacion.js"></script>
 </head>
 <body>
     <section>
@@ -42,9 +43,9 @@
 
                     <tr>
                         <td> <label>Teléfono: </label></td>
-                        <td> <input type="text" id="telefono" name="telefono" value=""
+                        <td> <input type="text" id="telefono" name="telefono" value="" onkeyup="validarTelefono()"
                                 placeholder="Ingrese su número de teléfono" onfocus="escribe(this)"
-                                onkeyup="this.value = val_numero(this.value)"></td>
+                                onkeyup="this.value = val_numero(this.value)" ></td>
                     </tr>
 
                     <tr>
@@ -66,6 +67,11 @@
                     </tr>
 
                     <tr>
+                        <td><label>Contraseña: </label></td>
+                        <td><input type="password" id="contra" name="contra" placeholder="Ingrese una Contraseña"></td>
+                    </tr>
+
+                    <tr>
                         <td colspan="2">
                             <div id="btn">
                                 <input type="submit" id="crear" name="crear" value="Aceptar">
@@ -73,6 +79,7 @@
                             </div>
                         </td>
                     </tr>
+
                 </table>
             </form>
             <spam id="p" style="display: none;">Error, campos incompletos!</spam>

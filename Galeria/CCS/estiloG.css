@@ -1,8 +1,6 @@
 * {
-    background-image: url(../Images/htmlFondo.jpg);
-    
+    background-image: url(../../Images/htmlFondo.jpg);
     }
-    
     .mySlides {
         display:none;
         width: 100%;

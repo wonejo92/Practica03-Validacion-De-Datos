@@ -1,0 +1,56 @@
+* {
+    background-image: url(../Images/htmlFondo.jpg);
+    
+    }
+    
+    .mySlides {
+        display:none;
+        width: 100%;
+        margin: 90px 0;
+    }
+    
+    #img {
+        width: 50%;
+        height: 50%;
+        overflow: hidden;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .button {
+        border:none;
+        display:inline-block;
+        padding:8px 16px;
+        vertical-align:middle;
+        text-decoration:none;
+        color:black;
+        background-color: rgba(255, 255, 255, 0.3);
+        text-align:center;
+    }
+    
+    .black:hover {
+        color:#fff!important;
+        background-color:#000!important
+    }
+    
+    .right {
+        position:absolute;
+        top:350px;
+        right:10.5%;
+        transform:translate(0%,-50%);
+        -ms-transform:translate(0%,-50%);
+    }
+    
+    .left {
+        position:absolute;
+        top:350px;
+        left:10.5%;
+        transform:translate(0%,-50%);
+        -ms-transform:translate(-0%,-50%);
+    }
+    
+    .center {
+        position:absolute;
+        top:470px;
+        right: 45%;
+    }
